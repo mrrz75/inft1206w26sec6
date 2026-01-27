@@ -1,64 +1,96 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--
         Name: Muath Alzghool
         file: week1.html
         Date: Jan 20,2026
         Description: 
     -->
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
-</head>
-<body>
-    <img width="100" src="./img/logo.jfif" alt="My logo">
-    <h1>Week 1: Introduction to HTML</h1>
-    <a href="./index.html">Main page</a>
-    <h2>HTML Elements</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur facere ullam, cumque laboriosam nam ad?</p>
-    <h3>Character Entity</h3>
-    <p>My name is &lt;Muath&gt; and my salary is 1800&pound;</p>
-    <hr>
-    <h3>sub tag</h3>
-    <h4>H<sub>2</sub>O</h4>
-    <hr>
-    <h3>sup tag</h3>
-    <h4>f(x) = x<sup>2</sup></h4>
-    <hr>
-    <h3>code tag</h3>
-    <code>
-        #include &lt;iostream&gt;<br>
-        int main(){<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;cout &lt;&lt;"Hello" &lt;&lt;endl;<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;return 0;
-        }
-    </code>
-    <hr>
-    <p>
-        Welcome                    to 
-
-        HTML
-    </p>
-    <pre>
-        Welcome                    to 
-
-        HTML
-    </pre>
-    <hr>
-    <h3>Unordered list</h3>
-    <ul>
-        <li>Toronto</li>
-        <li>Ottawa</li>
-        <li>Oshawa</li>
-    </ul>
-    <hr>
-    <h3>Ordered list</h3>
-    <ol start="3">
-        <li>Toronto</li>
-        <li>Ottawa</li>
-        <li>Oshawa</li>
-    </ol>
-    <hr>
-</body>
+  </head>
+  <body>
+    <header>
+      <img width="100" src="./img/logo.jfif" alt="My logo" />
+      <h1>Week 1: Introduction to HTML</h1>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Homepage</a></li>
+          <li><a href="./week1.html">Week 1</a></li>
+          <li><a href="./week2.html">Week 2</a></li>
+          <li><a href="./week3.html">Week 3</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <header>
+          <h2>HTML Elements</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            facere ullam, cumque laboriosam nam ad?
+          </p>
+        </header>
+        <section>
+          <h3>Character Entity</h3>
+          <p>My name is &lt;Muath&gt; and my salary is 1800&pound;</p>
+          <hr />
+        </section>
+        <section>
+          <h3>sub tag</h3>
+          <h4>H<sub>2</sub>O</h4>
+          <hr />
+        </section>
+        <section>
+          <h3>sup tag</h3>
+          <h4>f(x) = x<sup>2</sup></h4>
+          <hr />
+        </section>
+        <section>
+          <h3>code tag</h3>
+          <code>
+            #include &lt;iostream&gt;<br />
+            int main(){<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;cout &lt;&lt;"Hello" &lt;&lt;endl;<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;return 0; }
+          </code>
+          <hr />
+        </section>
+        <section>
+          <p>Welcome to HTML</p>
+          <pre>
+                    Welcome                    to 
+            
+                    HTML
+                </pre
+          >
+          <hr />
+        </section>
+        <section>
+          <h3>Unordered list</h3>
+          <ul>
+            <li>Toronto</li>
+            <li>Ottawa</li>
+            <li>Oshawa</li>
+          </ul>
+          <hr />
+        </section>
+        <section>
+          <h3>Ordered list</h3>
+          <ol start="3">
+            <li>Toronto</li>
+            <li>Ottawa</li>
+            <li>Oshawa</li>
+          </ol>
+          <hr />
+        </section>
+      </article>
+    </main>
+    <footer>
+      <p>@2026 Alzghool</p>
+    </footer>
+  </body>
 </html>
